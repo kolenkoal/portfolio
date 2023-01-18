@@ -1,0 +1,29 @@
+@import "colors";
+
+.header {
+  background: $backgroundColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 80px;
+  padding: 0 120px;
+  color: white;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: $textColor;
+  }
+
+  ul {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+    }
+  }
+
+}
