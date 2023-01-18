@@ -10,19 +10,32 @@
   color: white;
 
   h2 {
+    a {
+      text-decoration: none;
+      color: $textColor;
+    }
+
     font-size: 32px;
     font-weight: 700;
-    color: $textColor;
+    cursor: pointer;
   }
 }
+
 .nav {
-  width:40%;
+  width: 40%;
   align-items: center;
+
   ul {
     display: flex;
     justify-content: space-around;
 
     li {
+      a {
+        text-decoration: none;
+        color: $textColor;
+      }
+
+      cursor: pointer;
       font-style: normal;
       font-weight: 700;
       font-size: 20px;
