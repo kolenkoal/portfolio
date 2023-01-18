@@ -1,0 +1,15 @@
+@import "colors";
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0;
+  background: $backgroundColor;
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: $textColor;
+  }
+}
