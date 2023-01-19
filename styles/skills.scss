@@ -1,0 +1,40 @@
+@import "colors";
+
+.skills {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  background: $backgroundColor;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: $keyElementsColor;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+
+.my-skills {
+  display: flex;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $skillsBackground;
+  padding:50px 40px 0 40px;
+  margin: 0 20px;
+  h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: $textColor;
+  }
+
+  img {
+    width: 129px;
+  }
+}
