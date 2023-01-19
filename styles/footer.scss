@@ -1,0 +1,78 @@
+@import "colors";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 120px;
+  background: $backgroundColor;
+}
+
+.personal-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+
+  h2 {
+    text-decoration: none;
+    color: $textColor;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+  p {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: $textColor;
+    text-align: center;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
+    color: $keyElementsColor;
+    margin: 10px 0;
+  }
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media1 {
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  margin:0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 32px;
+    height: 32px;
+  }
+  h4 {
+    margin: 15px 20px;
+    color: $keyElementsColor;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
